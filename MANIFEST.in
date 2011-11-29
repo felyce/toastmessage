@@ -1,0 +1,5 @@
+include README.md
+recursive-include toastmessage/static/css *
+recursive-include toastmessage/static/js *
+recursive-include toastmessage/static/images/notify *
+recursive-include toastmessage/templates *
