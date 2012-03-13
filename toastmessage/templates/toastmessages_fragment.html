@@ -2,9 +2,9 @@
   $(window).load(function(){
     {% for message in messages %}
       {% if message.tags in 'success,warning,error, notice' %}
-        $().toastmessage('show{{ message.tags|capfirst }}Toast', {text : "{{ message }}", stayTime: 10000});
+        $().toastmessage('showToast', {text : "{{ message }}", stayTime: 10000, type : '{{ message.tags|lower }}'});
       {% else %}
-        $().toastmessage('showNoticeToast', {text : "{{ message }}", stayTime: 4000});
+      	$().toastmessage('showToast', {text : "{{ message }}", stayTime: 10000, type : 'notice'});
       {% endif %}
     {% endfor %}
   });
