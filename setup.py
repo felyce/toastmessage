@@ -36,7 +36,4 @@ setup(name='django-toast-messages',
         "Topic :: Software Development :: User Interfaces",
         "Framework :: Django",
         ],
-    long_description = """\
-Django wrapper for using jQuery-powered sexy floating messages - http://akquinet.github.com/jquery-toastmessage-plugin/
-"""
 )
