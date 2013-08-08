@@ -36,4 +36,5 @@ setup(name='django-toast-messages',
         "Topic :: Software Development :: User Interfaces",
         "Framework :: Django",
         ],
+    install_requires=install_requires
 )
