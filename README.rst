@@ -1,7 +1,7 @@
 Django toast messages
 =====================
 
-Provides template tag for displaying toast message for 10 seconds after window load.
+Provides django template tag for displaying toast message for 10 seconds after window load.
 
 Usage
 =====
@@ -16,4 +16,12 @@ Usage
         $().toastmessage('showSuccessToast', "Hello there! Message is shown.");
     </script>
 
+
+
+Written by the development team of Arpaso company: http://arpaso.com
+
+Regards to
+~~~~~~~~~~
+
+jQuery-powered sexy floating messages - http://akquinet.github.com/jquery-toastmessage-plugin/
 
