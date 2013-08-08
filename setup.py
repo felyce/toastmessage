@@ -2,17 +2,24 @@
 
 from setuptools import setup
 
+#Dependencies - python eggs
+install_requires = [
+        'setuptools',
+        'Django',
+]
+
 setup(name='django-toast-messages',
-    version='0.0.1',
+    version='0.1',
     description='jQuery-powered sexy floating messages',
     author='Arpaso',
-    author_email='millioner.bbb@gmail.com',
-    url='',
+    author_email='arvid@arpaso.com',
+    url='https://github.com/Arpaso/toastmessage',
+    download_url='https://github.com/Arpaso/toastmessage/tarball/0.1',
     packages=['toastmessage', ],
     include_package_data = True,    # include everything in source control
     zip_safe=False,
+    keywords=['django', 'toastmessage', 'django-toastmessage', 'tag'],
     classifiers = [
-        "Programming Language :: Python",
         "Programming Language :: Python :: 2",
         "Development Status :: 4 - Beta",
         'Environment :: Web Environment',

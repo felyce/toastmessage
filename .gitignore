@@ -18,3 +18,11 @@
 
 #defaults
 *.pyc
+
+#virtualenv
+/local
+/dist
+/lib
+/build
+/bin
+/include
