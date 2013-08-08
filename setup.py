@@ -1,6 +1,11 @@
 #!/usr/bin/env python
 
-from setuptools import setup
+from setuptools import setup,find_packages
+import os
+
+
+def read(fname):
+    return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 #Dependencies - python eggs
 install_requires = [
@@ -11,6 +16,7 @@ install_requires = [
 setup(name='django-toast-messages',
     version='0.1',
     description='jQuery-powered sexy floating messages',
+    long_description=read('README.rst'),
     author='Arpaso',
     author_email='arvid@arpaso.com',
     url='https://github.com/Arpaso/toastmessage',
