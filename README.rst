@@ -1,6 +1,8 @@
 Django toast messages
 =====================
 
+Link to repository: https://github.com/Arpaso/toastmessage
+
 Provides django template tag for displaying toast message for 10 seconds after window load.
 
 Usage
